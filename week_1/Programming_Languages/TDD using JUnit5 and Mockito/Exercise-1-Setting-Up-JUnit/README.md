@@ -2,61 +2,86 @@
 
 ## Problem Statement
 
-Set up JUnit in a Java Maven project to enable unit testing by configuring the required dependency and creating a basic test class.
+Set up JUnit in a Java project to enable unit testing by configuring the required testing framework and creating a basic test class.
+
+---
 
 ## Objective
 
-- Configure a Maven-based Java project.
-- Integrate JUnit 4.13.2 as the testing framework.
-- Create a test class to verify the JUnit setup.
+- Create a Maven-based Java project.
+- Configure JUnit 4.13.2 as the unit testing framework.
+- Create a test class to verify the project setup.
 - Prepare the project for future unit testing exercises.
+
+---
 
 ## Technologies Used
 
 - Java 21
-- Maven 3.9.11
+- Apache Maven 3.9.11
 - JUnit 4.13.2
 - Visual Studio Code
 
+---
+
 ## Project Structure
 
-
+```
 Exercise-1-Setting-Up-JUnit
 │
 ├── src
-│ ├── main
-│ │ └── java
-│ │ └── com
-│ │ └── aadi
-│ │ └── junit
-│ │ └── App.java
-│ │
-│ └── test
-│ └── java
-│ └── com
-│ └── aadi
-│ └── junit
-│ └── CalculatorTest.java
+│   ├── main
+│   │   └── java
+│   │       └── com
+│   │           └── aadi
+│   │               └── junit
+│   │                   └── App.java
+│   │
+│   └── test
+│       └── java
+│           └── com
+│               └── aadi
+│                   └── junit
+│                       └── CalculatorTest.java
 │
 ├── pom.xml
 ├── README.md
 └── .gitignore
+```
 
+---
 
-## Outcome
+## Implementation
 
-- Successfully configured a Maven Java project.
-- Added the JUnit 4.13.2 dependency.
-- Created a sample test class.
-- Verified the setup using Maven with a successful build.
+- Configured a Maven project for Java development.
+- Added the JUnit 4.13.2 dependency in the `pom.xml` file.
+- Created a sample test class using the `@Test` annotation.
+- Successfully executed the project using Maven to validate the JUnit configuration.
+
+---
+
+## Result
+
+The JUnit environment was successfully configured, and the project was built and tested successfully using Maven.
+
+**Build Status:** `BUILD SUCCESS`
+
+---
 
 ## Output
 
-Execution completed successfully with: BUILD SUCCESS
+The project executed successfully after running:
 
-![Output1](week_1\Programming_Languages\TDD using JUnit5 and Mockito\Exercise-1-Setting-Up-JUnit\screenshots\output_1.png)
+```bash
+mvn clean test
+```
 
-![Output2](week_1\Programming_Languages\TDD using JUnit5 and Mockito\Exercise-1-Setting-Up-JUnit\screenshots\output_2.png)
+**Output Screenshot**
 
+![Project Structure](output-1.png)
 
+![Build Success](output-2.png)
 
+```
+BUILD SUCCESS
+```
