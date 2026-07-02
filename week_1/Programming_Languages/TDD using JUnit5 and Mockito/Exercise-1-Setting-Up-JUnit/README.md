@@ -78,9 +78,9 @@ mvn clean test
 
 **Output Screenshot**
 
-![Project Structure](screenshots/output1.png)
+![Project Structure](screenshots/output_1.png)
 
-![Build Success](screenshots/output2.png)
+![Build Success](screenshots/output_2.png)
 
 ```
 BUILD SUCCESS
