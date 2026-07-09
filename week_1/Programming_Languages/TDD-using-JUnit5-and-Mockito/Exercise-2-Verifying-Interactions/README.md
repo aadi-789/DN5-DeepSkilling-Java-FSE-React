@@ -44,21 +44,7 @@ Exercise-2-Verifying-Interactions
 └── README.md
 ```
 
-## Output
 
-```text
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running com.aadi.junit.MyServiceTest
-
-Tests run: 1
-Failures: 0
-Errors: 0
-Skipped: 0
-
-BUILD SUCCESS
-```
 
 ## Expected Outcome
 
