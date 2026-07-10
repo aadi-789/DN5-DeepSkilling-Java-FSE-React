@@ -1,4 +1,4 @@
-package com.aadi.spring_learn;
+package com.aadi.springlearn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
