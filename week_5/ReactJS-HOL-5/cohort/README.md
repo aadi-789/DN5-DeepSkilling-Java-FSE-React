@@ -99,17 +99,11 @@ http://localhost:3000
 
 ## Output Screenshot
 
-Place the output screenshot inside:
-
-```
 screenshots/screenshot.png
-```
 
-Add it to the README:
 
-```markdown
 ![Application Output](screenshots/screenshot.png)
-```
+
 
 ---
 
