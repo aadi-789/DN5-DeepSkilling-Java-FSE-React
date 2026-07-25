@@ -1,4 +1,4 @@
-# ReactJS-HOL 4 – Event Handling
+# ReactJS-HOL 11 – Event Handling
 
 ## Objective
 
