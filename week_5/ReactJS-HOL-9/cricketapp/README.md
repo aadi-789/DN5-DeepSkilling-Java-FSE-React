@@ -97,23 +97,20 @@ http://localhost:3000
 
 ## Output Screenshots
 
-Store the screenshots in the following folder:
 
-```
-screenshots/
-```
+
 
 ### Flag = true
 
-```markdown
+
 ![Flag True](screenshots/screenshot-flag-true.png)
-```
+
 
 ### Flag = false
 
-```markdown
+
 ![Flag False](screenshots/screenshot-flag-false.png)
-```
+
 
 ---
 
